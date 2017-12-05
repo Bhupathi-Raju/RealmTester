@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zemoso.realmtester.fragments.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:text="Company Name: "
+            android:id="@+id/companyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:padding="16dp" />
+       <TextView
+           android:id="@+id/years"
+           android:layout_below="@id/companyName"
+           android:text="Years Worked: "
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="8dp"
+           android:padding="16dp"/>
+      <TextView
+          android:id="@+id/role"
+          android:layout_below="@id/years"
+          android:text="Role: "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:padding="16dp"/>
+    <TextView
+        android:id="@+id/certification"
+        android:layout_below="@id/role"
+        android:text="Certification: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/courses"
+        android:layout_below="@id/certification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Courses: "
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/extraCurricular"
+        android:layout_below="@id/courses"
+        android:text="extraCurricular: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
+
+</RelativeLayout>
